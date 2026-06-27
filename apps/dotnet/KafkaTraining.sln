@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducerDemo", "ProducerDemo\ProducerDemo.csproj", "{9DDDB944-82D3-5A1A-9010-D2D8B4733F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerDemo", "ConsumerDemo\ConsumerDemo.csproj", "{741E1350-4BDB-57E8-AEF5-517EE1203A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerGroupsDemo", "ConsumerGroupsDemo\ConsumerGroupsDemo.csproj", "{555C72F1-7F5D-510F-BFC5-70B77D267691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualOffsetDemo", "ManualOffsetDemo\ManualOffsetDemo.csproj", "{516376DF-6B14-5248-B383-CCDD8F21CCF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducerReliabilityDemo", "ProducerReliabilityDemo\ProducerReliabilityDemo.csproj", "{B4B0D29C-CC5B-5FA2-B9BD-B8B8C88F0F8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchemaRegistryDemo", "SchemaRegistryDemo\SchemaRegistryDemo.csproj", "{01EB954F-5B54-5585-927F-28B1567BA21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaConnectDemo", "KafkaConnectDemo\KafkaConnectDemo.csproj", "{B294F73F-07DB-5E76-B4D0-73A6D9F51F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamProcessingDemo", "StreamProcessingDemo\StreamProcessingDemo.csproj", "{4E9E69BF-9148-5A94-9112-43CFCD35EE1E}"
+EndProject
+Global
+EndGlobal
