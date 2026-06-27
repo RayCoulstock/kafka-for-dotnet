@@ -1,0 +1,49 @@
+{
+  "name": "Kafka for .NET Training",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.csharp",
+        "ms-azuretools.vscode-docker"
+      ],
+      "settings": {
+        "dotnet.defaultSolution": "apps/dotnet/KafkaTraining.sln"
+      }
+    }
+  },
+  "forwardPorts": [
+    8080,
+    8081,
+    8083,
+    8088,
+    9092
+  ],
+  "portsAttributes": {
+    "8080": {
+      "label": "Kafka UI"
+    },
+    "8081": {
+      "label": "Schema Registry"
+    },
+    "8083": {
+      "label": "Kafka Connect"
+    },
+    "8088": {
+      "label": "ksqlDB"
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/install-tools.sh",
+  "remoteUser": "vscode",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "8gb",
+    "storage": "32gb"
+  }
+}
